@@ -22,7 +22,7 @@ i have good idea of what i wanna use for visualization it will be either metabas
 the T from ETL,ELT which is transformation. The tool i will test today is dbt-core which is the open source version of dbt.
 
 
-## Day - 1-1-2022
+## Day - 2-1-2022
 after installing dbt i was struggling with running the docs server as it was one of
 the features that i was intrested in, there for it did not work saying there is an error
 in the configuration where there should be a name for the project that should matches in the profiles.yml file.
@@ -36,7 +36,7 @@ Solutions
 facing another issue when i run dbt run which is asking to setup a database connection in the /home/malnajdi/.dbt/profiles.yml
 
 
-## Day - 2-1-2022
+## Day - 2-2-2022
 i have created a database in postgres and user and cofigured /home/malnajdi/.dbt/profiles.yml to have these configurations, now running `dbt run` seems to work and 
 it created 1 table and 1 view.
 
