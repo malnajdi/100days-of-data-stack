@@ -43,12 +43,12 @@ it created 1 table and 1 view.
 Per the configuration `dbt_project.yml` anything under the models/example will be ran and it will create them as views unless otherwise specified in the model file itself
 the variable that will be used is `materialized` if you assign `materialized: view` means it will create the target model as view and `materialized: table` it will create it as table.
 
-## Day - 3-1-2022
+## Day - 2-3-2022
 
 I tried to test the Extract and Loading data Intro a Warehouse, I used the tool called airbyte. Still
 testing and playing with it. It has a docker-compose https://github.com/airbytehq/airbyte.
 
-## Day - 4-1-2022
+## Day - 2-4-2022
 
 break
 
