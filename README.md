@@ -53,3 +53,13 @@ testing and playing with it. It has a docker-compose https://github.com/airbyteh
 break
 
 
+## Day - 2-6-2022
+
+Today i ran the docker-compose of Airbyte to test extracting & loading data from an online json sorce 
+and it worked. I was having some issues with setting the destination since it's within my local system
+so i was giving it an unauthorized location to save the file to, but once this is fixed, the data were
+saved in /tmp/airbyte_local which is the root dir for data in a fresh instance of airbyte
+
+Oh to run it you need to do the following: `sudo docker-compose up -d`
+
+
